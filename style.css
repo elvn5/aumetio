@@ -1,0 +1,41 @@
+body{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+h1{
+  font-size: 64px;
+}
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+img{
+  margin: 20px 20px;
+}
+.temperature{
+  display: flex;
+  
+  align-items: center;
+  font-size: 48px;
+}
+.humidity{
+  display: flex;
+  
+  align-items: center;
+  font-size: 48px;
+}
+.airquality{
+  display: flex;
+  
+  align-items: center;
+  font-size: 48px;
+}
